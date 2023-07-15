@@ -1,7 +1,12 @@
 const SCREENS = {
-    MARKETS: {key: 'MARKETS', name: 'Markets'},
-    PORTFOLIO: {key: 'PORTFOLIO', name: 'Portfolio'},
-    NEWS: {key: 'NEWS', name: 'News'}
+    MAIN: {
+        MARKETS: {name: 'MARKETS_MAIN'},
+        PORTFOLIO: {name: 'PORTFOLIO'},
+        NEWS: {name: 'NEWS'}
+    },
+    DETAILS: {
+        STOCK: {name: 'STOCK_DETAILS'}
+    }
 };
 
 export { SCREENS };

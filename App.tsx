@@ -3,20 +3,23 @@ import { StatusBar } from "expo-status-bar";
 import { NativeBaseProvider } from "native-base";
 import { NavigationContainer } from "@react-navigation/native";
 
-import TabRoutes from './src/routes/tabs'
+import { AppContextProvider } from "./src/context/app-context";
+import TabRoutes from "./src/routes/tabs";
 
 const App = () => {
 	const isLoggedIn = false;
 	return (
 		<NavigationContainer>
 			<NativeBaseProvider>
-				<StatusBar style="auto"/>
-				<SafeAreaView style={{flex: 1}}>
-          <TabRoutes />
-				</SafeAreaView>
+				<AppContextProvider>
+					<StatusBar style="auto" />
+					<SafeAreaView style={{ flex: 1 }}>
+						<TabRoutes />
+					</SafeAreaView>
+				</AppContextProvider>
 			</NativeBaseProvider>
 		</NavigationContainer>
-	)
-}
+	);
+};
 
 export default App;

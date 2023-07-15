@@ -5,19 +5,20 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import { SCREENS } from '../config/constants';
 import { Portfolio, Markets } from '../screens';
+import AppStackNavigator from './stacks';
 
 const Tab = createBottomTabNavigator();
 
 const Screens = [
-    {...SCREENS.MARKETS, component: Markets, options: {tabBarIcon: () => (<Feather name="pie-chart" size={30} />)}},
-    {...SCREENS.PORTFOLIO, component: Portfolio, options: {tabBarIcon: () => (<FontAwesome name="line-chart" size={30} />)}},
+    {...SCREENS.MAIN.PORTFOLIO, component: Portfolio, options: {tabBarIcon: () => (<FontAwesome name="line-chart" size={30} />)}},
+    {...SCREENS.MAIN.MARKETS, component: AppStackNavigator, options: {tabBarIcon: () => (<Feather name="pie-chart" size={30} />)}},
 ];
 
 const AppRoutes = () => {
     return (
-        <Tab.Navigator initialRouteName={SCREENS.MARKETS.key} screenOptions={{headerShown: false}}>
-            {Screens.map((screen) => (<Tab.Screen {...screen} />))}
-            {/* <Tab.Screen name={SCREENS.NEWS.name} key={SCREENS.NEWS.key}  /> */}
+        <Tab.Navigator initialRouteName={'Markets'} screenOptions={{headerShown: false}}>
+            <Tab.Screen {...SCREENS.MAIN.PORTFOLIO} component={Portfolio} options={{tabBarIcon: () => (<FontAwesome name="line-chart" size={30} />)}} />
+            <Tab.Screen name='Markets' component={AppStackNavigator} options={{tabBarIcon: () => (<FontAwesome name="line-chart" size={30} />)}} />
         </Tab.Navigator>
     )
 };

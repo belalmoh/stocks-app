@@ -1,0 +1,437 @@
+{
+    "data": [
+        {
+            "market": "NASDAQ",
+            "symbols": [
+                {
+                    "symbol": "AAPL",
+                    "name": "Apple Inc.",
+                    "past_1_day": {
+                        "close_price": 150.25,
+                        "last_trade_price": 150.10,
+                        "outstanding_shares": 1000000000,
+                        "market_value": 1.5e11
+                    },
+                    "past_7_days": {
+                        "close_price": 148.95,
+                        "last_trade_price": 149.20,
+                        "outstanding_shares": 1000000000,
+                        "market_value": 1.49e11
+                    },
+                    "past_1_month": {
+                        "close_price": 152.80,
+                        "last_trade_price": 152.50,
+                        "outstanding_shares": 1000000000,
+                        "market_value": 1.52e11
+                    },
+                    "past_3_months": {
+                        "close_price": 157.60,
+                        "last_trade_price": 157.70,
+                        "outstanding_shares": 1000000000,
+                        "market_value": 1.57e11
+                    },
+                    "past_1_year": {
+                        "close_price": 145.30,
+                        "last_trade_price": 145.50,
+                        "outstanding_shares": 1000000000,
+                        "market_value": 1.45e11
+                    }
+                },
+                {
+                    "symbol": "GOOGL",
+                    "name": "Alphabet Inc.",
+                    "past_1_day": {
+                        "close_price": 2725.10,
+                        "last_trade_price": 2726.00,
+                        "outstanding_shares": 100000000,
+                        "market_value": 2.72e11
+                    },
+                    "past_7_days": {
+                        "close_price": 2732.90,
+                        "last_trade_price": 2731.50,
+                        "outstanding_shares": 100000000,
+                        "market_value": 2.73e11
+                    },
+                    "past_1_month": {
+                        "close_price": 2710.80,
+                        "last_trade_price": 2712.50,
+                        "outstanding_shares": 100000000,
+                        "market_value": 2.71e11
+                    },
+                    "past_3_months": {
+                        "close_price": 2756.60,
+                        "last_trade_price": 2757.80,
+                        "outstanding_shares": 100000000,
+                        "market_value": 2.76e11
+                    },
+                    "past_1_year": {
+                        "close_price": 2689.30,
+                        "last_trade_price": 2688.50,
+                        "outstanding_shares": 100000000,
+                        "market_value": 2.69e11
+                    }
+                },
+                {
+                    "symbol": "MSFT",
+                    "name": "Microsoft Corporation",
+                    "past_1_day": {
+                        "close_price": 285.30,
+                        "last_trade_price": 285.10,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 2.28e12
+                    },
+                    "past_7_days": {
+                        "close_price": 280.10,
+                        "last_trade_price": 279.90,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 2.24e12
+                    },
+                    "past_1_month": {
+                        "close_price": 270.50,
+                        "last_trade_price": 270.80,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 2.16e12
+                    },
+                    "past_3_months": {
+                        "close_price": 255.40,
+                        "last_trade_price": 255.50,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 2.04e12
+                    },
+                    "past_1_year": {
+                        "close_price": 210.75,
+                        "last_trade_price": 210.80,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.68e12
+                    }
+                },
+                {
+                    "symbol": "AMZN",
+                    "name": "Amazon.com, Inc.",
+                    "past_1_day": {
+                        "close_price": 3586.50,
+                        "last_trade_price": 3585.10,
+                        "outstanding_shares": 500000000,
+                        "market_value": 1.79e12
+                    },
+                    "past_7_days": {
+                        "close_price": 3560.20,
+                        "last_trade_price": 3561.40,
+                        "outstanding_shares": 500000000,
+                        "market_value": 1.78e12
+                    },
+                    "past_1_month": {
+                        "close_price": 3650.90,
+                        "last_trade_price": 3649.70,
+                        "outstanding_shares": 500000000,
+                        "market_value": 1.83e12
+                    },
+                    "past_3_months": {
+                        "close_price": 3450.10,
+                        "last_trade_price": 3449.50,
+                        "outstanding_shares": 500000000,
+                        "market_value": 1.72e12
+                    },
+                    "past_1_year": {
+                        "close_price": 2901.35,
+                        "last_trade_price": 2902.15,
+                        "outstanding_shares": 500000000,
+                        "market_value": 1.45e12
+                    }
+                },
+                {
+                    "symbol": "FB",
+                    "name": "Facebook, Inc.",
+                    "past_1_day": {
+                        "close_price": 330.75,
+                        "last_trade_price": 331.20,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 9.92e11
+                    },
+                    "past_7_days": {
+                        "close_price": 326.80,
+                        "last_trade_price": 327.10,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 9.78e11
+                    },
+                    "past_1_month": {
+                        "close_price": 318.50,
+                        "last_trade_price": 318.80,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 9.56e11
+                    },
+                    "past_3_months": {
+                        "close_price": 310.20,
+                        "last_trade_price": 310.30,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 9.31e11
+                    },
+                    "past_1_year": {
+                        "close_price": 275.50,
+                        "last_trade_price": 275.80,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 8.27e11
+                    }
+                },
+                {
+                    "symbol": "TSLA",
+                    "name": "Tesla, Inc.",
+                    "past_1_day": {
+                        "close_price": 650.20,
+                        "last_trade_price": 651.50,
+                        "outstanding_shares": 100000000,
+                        "market_value": 6.5e10
+                    },
+                    "past_7_days": {
+                        "close_price": 640.30,
+                        "last_trade_price": 639.90,
+                        "outstanding_shares": 100000000,
+                        "market_value": 6.4e10
+                    },
+                    "past_1_month": {
+                        "close_price": 610.40,
+                        "last_trade_price": 609.80,
+                        "outstanding_shares": 100000000,
+                        "market_value": 6.1e10
+                    },
+                    "past_3_months": {
+                        "close_price": 580.10,
+                        "last_trade_price": 580.20,
+                        "outstanding_shares": 100000000,
+                        "market_value": 5.8e10
+                    },
+                    "past_1_year": {
+                        "close_price": 510.75,
+                        "last_trade_price": 510.80,
+                        "outstanding_shares": 100000000,
+                        "market_value": 5.1e10
+                    }
+                },
+                {
+                    "symbol": "NVDA",
+                    "name": "NVIDIA Corporation",
+                    "past_1_day": {
+                        "close_price": 900.00,
+                        "last_trade_price": 901.20,
+                        "outstanding_shares": 200000000,
+                        "market_value": 1.8e11
+                    },
+                    "past_7_days": {
+                        "close_price": 910.80,
+                        "last_trade_price": 910.50,
+                        "outstanding_shares": 200000000,
+                        "market_value": 1.82e11
+                    },
+                    "past_1_month": {
+                        "close_price": 880.70,
+                        "last_trade_price": 881.40,
+                        "outstanding_shares": 200000000,
+                        "market_value": 1.76e11
+                    },
+                    "past_3_months": {
+                        "close_price": 850.60,
+                        "last_trade_price": 851.20,
+                        "outstanding_shares": 200000000,
+                        "market_value": 1.7e11
+                    },
+                    "past_1_year": {
+                        "close_price": 800.90,
+                        "last_trade_price": 801.50,
+                        "outstanding_shares": 200000000,
+                        "market_value": 1.6e11
+                    }
+                }
+            ]
+        },
+        {
+            "market": "NYSE",
+            "symbols": [
+                {
+                    "symbol": "BABA",
+                    "name": "Alibaba Group Holding Limited",
+                    "past_1_day": {
+                        "close_price": 215.50,
+                        "last_trade_price": 215.80,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 6.47e11
+                    },
+                    "past_7_days": {
+                        "close_price": 210.80,
+                        "last_trade_price": 211.10,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 6.32e11
+                    },
+                    "past_1_month": {
+                        "close_price": 220.40,
+                        "last_trade_price": 220.70,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 6.61e11
+                    },
+                    "past_3_months": {
+                        "close_price": 230.20,
+                        "last_trade_price": 230.30,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 6.91e11
+                    },
+                    "past_1_year": {
+                        "close_price": 245.50,
+                        "last_trade_price": 245.80,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 7.37e11
+                    }
+                },
+                {
+                    "symbol": "BAC",
+                    "name": "Bank of America Corporation",
+                    "past_1_day": {
+                        "close_price": 42.80,
+                        "last_trade_price": 42.75,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 3.42e11
+                    },
+                    "past_7_days": {
+                        "close_price": 42.90,
+                        "last_trade_price": 42.95,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 3.43e11
+                    },
+                    "past_1_month": {
+                        "close_price": 43.20,
+                        "last_trade_price": 43.10,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 3.46e11
+                    },
+                    "past_3_months": {
+                        "close_price": 43.50,
+                        "last_trade_price": 43.60,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 3.48e11
+                    },
+                    "past_1_year": {
+                        "close_price": 42.70,
+                        "last_trade_price": 42.65,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 3.42e11
+                    }
+                }
+            ]
+        },
+        {
+            "market": "SWX",
+            "symbols": [
+                {
+                    "symbol": "NESN",
+                    "name": "Nestlé S.A.",
+                    "past_1_day": {
+                        "close_price": 108.50,
+                        "last_trade_price": 108.70,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 3.26e11
+                    },
+                    "past_7_days": {
+                        "close_price": 108.20,
+                        "last_trade_price": 108.40,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 3.25e11
+                    },
+                    "past_1_month": {
+                        "close_price": 107.90,
+                        "last_trade_price": 108.10,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 3.24e11
+                    },
+                    "past_3_months": {
+                        "close_price": 107.80,
+                        "last_trade_price": 107.90,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 3.23e11
+                    },
+                    "past_1_year": {
+                        "close_price": 107.50,
+                        "last_trade_price": 107.60,
+                        "outstanding_shares": 3000000000,
+                        "market_value": 3.23e11
+                    }
+                }
+            ]
+        },
+        {
+            "market": "LSE",
+            "symbols": [
+                {
+                    "symbol": "RDSB",
+                    "name": "Royal Dutch Shell Plc",
+                    "past_1_day": {
+                        "close_price": 15.50,
+                        "last_trade_price": 15.40,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.24e11
+                    },
+                    "past_7_days": {
+                        "close_price": 15.60,
+                        "last_trade_price": 15.55,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.24e11
+                    },
+                    "past_1_month": {
+                        "close_price": 15.30,
+                        "last_trade_price": 15.35,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.22e11
+                    },
+                    "past_3_months": {
+                        "close_price": 15.20,
+                        "last_trade_price": 15.15,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.21e11
+                    },
+                    "past_1_year": {
+                        "close_price": 14.80,
+                        "last_trade_price": 14.75,
+                        "outstanding_shares": 8000000000,
+                        "market_value": 1.18e11
+                    }
+                }
+            ]
+        },
+        {
+            "market": "TYO",
+            "symbols": [
+                {
+                    "symbol": "7203",
+                    "name": "Toyota Motor Corporation",
+                    "past_1_day": {
+                        "close_price": 7000.00,
+                        "last_trade_price": 6995.50,
+                        "outstanding_shares": 4000000000,
+                        "market_value": 2.8e13
+                    },
+                    "past_7_days": {
+                        "close_price": 7100.00,
+                        "last_trade_price": 7105.00,
+                        "outstanding_shares": 4000000000,
+                        "market_value": 2.84e13
+                    },
+                    "past_1_month": {
+                        "close_price": 7200.00,
+                        "last_trade_price": 7195.50,
+                        "outstanding_shares": 4000000000,
+                        "market_value": 2.88e13
+                    },
+                    "past_3_months": {
+                        "close_price": 6900.00,
+                        "last_trade_price": 6905.50,
+                        "outstanding_shares": 4000000000,
+                        "market_value": 2.76e13
+                    },
+                    "past_1_year": {
+                        "close_price": 6800.00,
+                        "last_trade_price": 6795.50,
+                        "outstanding_shares": 4000000000,
+                        "market_value": 2.72e13
+                    }
+                }
+            ]
+        }
+    ]
+}
