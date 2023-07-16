@@ -4,7 +4,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import { SCREENS } from '../config/constants';
-import { Portfolio, Markets } from '../screens';
+import { Portfolio, News } from '../screens';
 import AppStackNavigator from './stacks';
 import { View } from 'native-base';
 
@@ -20,7 +20,7 @@ const AppRoutes = () => {
         <Tab.Navigator initialRouteName={'Markets'} screenOptions={{headerShown: false}}>
             <Tab.Screen {...SCREENS.MAIN.PORTFOLIO} component={Portfolio} options={{tabBarIcon: () => (<FontAwesome name="line-chart" size={30} />)}} />
             <Tab.Screen name='Markets' component={AppStackNavigator} options={{tabBarIcon: () => (<FontAwesome name="pie-chart" size={30} />)}} />
-            {/* <Tab.Screen name='News' component={() => <View></View>} options={{tabBarIcon: () => (<FontAwesome name="pie-chart" size={30} />)}} /> */}
+            <Tab.Screen name='News' component={News} options={{tabBarIcon: () => (<Ionicons name="ios-reader-outline" size={30} />)}} />
         </Tab.Navigator>
     )
 };
