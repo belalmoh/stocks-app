@@ -12,10 +12,6 @@ const MarketsList = () => {
         }
     }
 
-    // return (
-    //     <Text>Hello world</Text>
-    // );
-
     return (
         <FlatList 
             data={state.markets}

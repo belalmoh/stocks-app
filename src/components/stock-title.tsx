@@ -1,9 +1,12 @@
-import { Text } from "react-native"
+import { View } from "react-native"
+import { Text } from "native-base";
 
-const StockTitle = ({title, ...props}) => {
-    
+const StockTitle = ({...props}) => {
     return (
-        <Text>{title}</Text>
+        <View style={{flex: 1}}>
+            <Text bold>{props.params.name}</Text>
+            <Text>{props.params.symbol}</Text>
+        </View>
     )
 }
 

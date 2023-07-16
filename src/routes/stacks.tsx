@@ -19,8 +19,8 @@ const StackAppRoutes = ({navigation}) => {
                 component={StockDetails}
                 options={({ route }) => ({ 
                     headerShown: true,
-                    headerTitle: (props) => <StockTitle {...props} title={route.params.name} />,
-                    headerLeft: () => {
+                    headerTitle: (props) => <StockTitle {...props} {...route} />,
+                    headerLeft: (props) => {
                         return (
                             <Button variant={'link'} leftIcon={<Icon as={Ionicon} name='chevron-back'/>} onPress={() => navigation.navigate(SCREENS.MAIN.MARKETS.name)}/>
                         )
